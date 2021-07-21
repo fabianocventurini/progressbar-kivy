@@ -1,0 +1,18 @@
+<MyFirstWidget>:
+    Label:
+        id: lbl
+        text: '0'
+        font_size: 50
+    Button:
+        id: btn2
+        text: 'Soma'
+        on_press: root.somar()
+    Button:
+        id: btn
+        text: 'Ativar Progress Bar'
+        on_press: root.ativarPgBar()
+    ProgressBar:
+        id: progress_bar
+        value: 0
+        min: 0
+        max: 100
